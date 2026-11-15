@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pocket TAB — プライバシー・利用条件</title><style>body{font:16px/1.8 system-ui,sans-serif;max-width:680px;margin:32px auto;padding:0 20px;background:#fffaf3;color:#51443c}h1{font-size:24px}h2{font-size:18px}a{color:#80513e}</style></head><body>
+<h1>プライバシー・利用条件</h1>
+<p>Pocket TABはブラウザ内で動作するTAB譜エディタです。譜面、設定、YouTubeの動画ID・開始位置、同意の記録は端末のローカルストレージに保存します。音声ファイルは端末内で処理し、アプリ独自のサーバーへ送信しません。運営者が入力内容を収集する機能や独自のアクセス解析はありません。公開先のGitHub Pagesにはホスティングに必要なアクセス情報が送信されます。</p>
+<h2>端末内の音源保存</h2>
+<p>選択した音声ファイル、分離結果、ミックス設定はこのサイトのIndexedDBに自動保存し、次回起動時に復元します。保存した音源は音源画面から個別に削除できます。譜面ファイルには端末内の音源IDのみ記録し、音声本体は含めません。別の端末や別のブラウザへは自動共有されません。ブラウザのサイトデータ削除や保存領域の整理によって失われる場合があるため、元のファイルも保管してください。</p>
+<h2>トラック分離</h2>
+<p>トラック分離は端末内でDemucsのAIモデルを実行します。開始時にHugging Faceから約136MBのモデルを取得するため、IPアドレス等の通常の通信情報が配布先へ送信されます。音源を配布先へアップロードする処理はありません。モデルは再利用のためブラウザにキャッシュする場合があります。分離した音源とミックス設定も端末内のIndexedDBに保存します。</p>
+<p><a href="https://huggingface.co/StemSplitio/htdemucs-6s-onnx">使用モデルとMITライセンス</a> ／ <a href="stem-licenses.txt">ライセンス表記</a> ／ <a href="https://huggingface.co/privacy">Hugging Faceプライバシーポリシー</a></p>
+<h2>YouTubeの利用</h2>
+<p>YouTube機能にはYouTube API Services（公式の埋め込みプレーヤー）を使用します。同意して動画を読み込むと、端末のIPアドレス、ブラウザ情報、参照元、動画ID、再生操作などがYouTube / Googleへ送信され、第三者のCookie等が使用される場合があります。動画・広告・アカウント情報の取り扱いはGoogleのポリシーに従います。YouTube機能を利用することで<a href="https://www.youtube.com/t/terms">YouTube利用規約</a>に拘束されることに同意します。</p>
+<p><a href="https://policies.google.com/privacy">Googleプライバシーポリシー</a> ／ <a href="https://www.youtube.com/t/terms">YouTube利用規約</a></p>
+<p>動画・音声をダウンロード、抽出、保存する機能はありません。動画IDと開始位置は利用者が指定した譜面設定として保存し、動画本体やYouTubeアカウント情報は保存しません。YouTubeへのログイン情報を要求することもありません。</p>
+<h2>保存データの削除・問い合わせ</h2>
+<p>YouTubeリンクは音源画面の「解除」で削除できます。端末のブラウザ設定からこのサイトのデータを消すと、保存済みの譜面・設定・同意記録を削除できます。必要な譜面は先に保存してください。Googleアカウント側の情報はGoogleの設定から管理してください。</p>
+<p>問い合わせ：<a href="https://github.com/pnz99/Pocket-TAB/issues">Pocket TABのGitHub Issues</a>。公開される場所なので、個人情報は記載しないでください。</p>
+<p><a href="./">アプリに戻る</a></p>
+</body></html>
