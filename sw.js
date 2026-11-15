@@ -1,9 +1,9 @@
 
 const PREFIX = "pocket-tab:%2FPocket-TAB%2F:";
-const CACHE = PREFIX + "mwhzta2p";
+const CACHE = PREFIX + "mwi0pe9u";
 const BASE = "/Pocket-TAB/";
 const INDEX = BASE + 'index.html';
-const FILES = ["/Pocket-TAB/index.html","/Pocket-TAB/assets/index-CVTWGdnG.css","/Pocket-TAB/assets/index-DN_Ax_CK.js","/Pocket-TAB/assets/pdf-CE6KYWCf.js","/Pocket-TAB/assets/beat.worker-EOiireXm.js","/Pocket-TAB/assets/ort-wasm-simd-threaded-DN_1uOdW.mjs","/Pocket-TAB/assets/ort-wasm-simd-threaded-qh98TCA_.wasm","/Pocket-TAB/assets/separate.worker-D4kaDnnC.js","/Pocket-TAB/manifest.webmanifest","/Pocket-TAB/icon.svg","/Pocket-TAB/icon-192.png","/Pocket-TAB/icon-512.png","/Pocket-TAB/apple-touch-icon.png","/Pocket-TAB/privacy.html","/Pocket-TAB/stem-licenses.txt"];
+const FILES = ["/Pocket-TAB/index.html","/Pocket-TAB/assets/index-DTTdXZQb.css","/Pocket-TAB/assets/index-DG1Yl1gT.js","/Pocket-TAB/assets/pdf-CNZj6Hwu.js","/Pocket-TAB/assets/beat.worker-EOiireXm.js","/Pocket-TAB/assets/ort-wasm-simd-threaded-DN_1uOdW.mjs","/Pocket-TAB/assets/ort-wasm-simd-threaded-qh98TCA_.wasm","/Pocket-TAB/assets/separate.worker-D4kaDnnC.js","/Pocket-TAB/manifest.webmanifest","/Pocket-TAB/icon.svg","/Pocket-TAB/icon-192.png","/Pocket-TAB/icon-512.png","/Pocket-TAB/apple-touch-icon.png","/Pocket-TAB/privacy.html","/Pocket-TAB/stem-licenses.txt"];
 const LAZY = FILES.filter(url => /(?:separate\.worker-|ort-wasm-)/.test(url));
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
