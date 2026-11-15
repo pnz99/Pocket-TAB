@@ -1,6 +1,6 @@
 
 const PREFIX = "pocket-tab:%2FPocket-TAB%2F:";
-const CACHE = PREFIX + "mwhzie1s";
+const CACHE = PREFIX + "mwhzlegt";
 const BASE = "/Pocket-TAB/";
 const INDEX = BASE + 'index.html';
 const FILES = ["/Pocket-TAB/index.html","/Pocket-TAB/assets/index-CVTWGdnG.css","/Pocket-TAB/assets/index-Bi8qINn7.js","/Pocket-TAB/assets/pdf-mQZ1gF1N.js","/Pocket-TAB/assets/beat.worker-EOiireXm.js","/Pocket-TAB/assets/ort-wasm-simd-threaded-DN_1uOdW.mjs","/Pocket-TAB/assets/ort-wasm-simd-threaded-qh98TCA_.wasm","/Pocket-TAB/assets/separate.worker-D4kaDnnC.js","/Pocket-TAB/manifest.webmanifest","/Pocket-TAB/icon.svg","/Pocket-TAB/icon-192.png","/Pocket-TAB/icon-512.png","/Pocket-TAB/apple-touch-icon.png","/Pocket-TAB/privacy.html","/Pocket-TAB/stem-licenses.txt"];
