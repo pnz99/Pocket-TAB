@@ -1,9 +1,9 @@
 
 const PREFIX = "pocket-tab:%2FPocket-TAB%2F:";
-const CACHE = PREFIX + "mwi2paor";
+const CACHE = PREFIX + "mwii9h4s";
 const BASE = "/Pocket-TAB/";
 const INDEX = BASE + 'index.html';
-const FILES = ["/Pocket-TAB/index.html","/Pocket-TAB/assets/index-D4HLIsRf.css","/Pocket-TAB/assets/index-Dz2nkfnv.js","/Pocket-TAB/assets/pdf-BE1XcOfS.js","/Pocket-TAB/assets/src-0dwFd49h.js","/Pocket-TAB/assets/beat.worker-EOiireXm.js","/Pocket-TAB/assets/ort-wasm-simd-threaded-DN_1uOdW.mjs","/Pocket-TAB/assets/ort-wasm-simd-threaded-qh98TCA_.wasm","/Pocket-TAB/assets/separate.worker-D4kaDnnC.js","/Pocket-TAB/manifest.webmanifest","/Pocket-TAB/icon.svg","/Pocket-TAB/icon-192.png","/Pocket-TAB/icon-512.png","/Pocket-TAB/apple-touch-icon.png","/Pocket-TAB/privacy.html","/Pocket-TAB/stem-licenses.txt","/Pocket-TAB/media-licenses.txt"];
+const FILES = ["/Pocket-TAB/index.html","/Pocket-TAB/assets/index-C2b7NDs4.css","/Pocket-TAB/assets/index-mbux5N-D.js","/Pocket-TAB/assets/pdf-ReqQB8bG.js","/Pocket-TAB/assets/src-0dwFd49h.js","/Pocket-TAB/assets/beat.worker-EOiireXm.js","/Pocket-TAB/assets/ort-wasm-simd-threaded-DN_1uOdW.mjs","/Pocket-TAB/assets/ort-wasm-simd-threaded-qh98TCA_.wasm","/Pocket-TAB/assets/separate.worker-D4kaDnnC.js","/Pocket-TAB/manifest.webmanifest","/Pocket-TAB/icon.svg","/Pocket-TAB/icon-192.png","/Pocket-TAB/icon-512.png","/Pocket-TAB/apple-touch-icon.png","/Pocket-TAB/privacy.html","/Pocket-TAB/stem-licenses.txt","/Pocket-TAB/media-licenses.txt"];
 const LAZY = FILES.filter(url => /(?:separate\.worker-|ort-wasm-)/.test(url));
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
