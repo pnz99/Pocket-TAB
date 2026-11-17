@@ -1,9 +1,9 @@
 
 const PREFIX = "pocket-tab:%2FPocket-TAB%2F:";
-const CACHE = PREFIX + "mwkpjgru";
+const CACHE = PREFIX + "mwkptdwm";
 const BASE = "/Pocket-TAB/";
 const INDEX = BASE + 'index.html';
-const FILES = ["/Pocket-TAB/index.html","/Pocket-TAB/assets/index-fULN63up.css","/Pocket-TAB/assets/index-BKahOmIy.js","/Pocket-TAB/assets/pdf-BHEzym40.js","/Pocket-TAB/assets/src-0dwFd49h.js","/Pocket-TAB/assets/beat.worker-EOiireXm.js","/Pocket-TAB/assets/ort-wasm-simd-threaded-DN_1uOdW.mjs","/Pocket-TAB/assets/ort-wasm-simd-threaded-qh98TCA_.wasm","/Pocket-TAB/assets/separate.worker-DB8UvFkE.js","/Pocket-TAB/manifest.webmanifest","/Pocket-TAB/icon.svg","/Pocket-TAB/icon-192.png","/Pocket-TAB/icon-512.png","/Pocket-TAB/apple-touch-icon.png","/Pocket-TAB/privacy.html","/Pocket-TAB/stem-licenses.txt","/Pocket-TAB/media-licenses.txt"];
+const FILES = ["/Pocket-TAB/index.html","/Pocket-TAB/assets/index-DRSaI41M.css","/Pocket-TAB/assets/index-BpEKDvi-.js","/Pocket-TAB/assets/pdf-BrNc1rgk.js","/Pocket-TAB/assets/src-0dwFd49h.js","/Pocket-TAB/assets/beat.worker-EOiireXm.js","/Pocket-TAB/assets/ort-wasm-simd-threaded-DN_1uOdW.mjs","/Pocket-TAB/assets/ort-wasm-simd-threaded-qh98TCA_.wasm","/Pocket-TAB/assets/separate.worker-DB8UvFkE.js","/Pocket-TAB/manifest.webmanifest","/Pocket-TAB/icon.svg","/Pocket-TAB/icon-192.png","/Pocket-TAB/icon-512.png","/Pocket-TAB/apple-touch-icon.png","/Pocket-TAB/privacy.html","/Pocket-TAB/stem-licenses.txt","/Pocket-TAB/media-licenses.txt"];
 const LAZY = FILES.filter(url => /(?:separate\.worker-|ort-wasm-)/.test(url));
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
